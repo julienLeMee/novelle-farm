@@ -37,7 +37,7 @@ const Navbar = () => {
         <Link href='/' className='w-16'>
           <Image
             src={logo}
-            width='auto'
+            width={50}
             height='auto'
             alt='logo'
             className='cursor-pointer'
