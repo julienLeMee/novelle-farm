@@ -1,3 +1,4 @@
+import Homepage from '@/components/Homepage'
 import Content from '@/components/Content'
 import Head from 'next/head'
 
@@ -10,6 +11,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Homepage />
       <Content />
     </>
   )
