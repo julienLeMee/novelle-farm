@@ -2,7 +2,9 @@ import React from 'react'
 
 const Content = () => {
   return (
-    <div>Content</div>
+    <div>
+      <h1>La ferme de Novelle</h1>
+    </div>
   )
 }
 
