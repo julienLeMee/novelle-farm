@@ -2,6 +2,7 @@ import Homepage from '@/components/Homepage'
 import Content from '@/components/Content'
 import Head from 'next/head'
 import Activities from '@/components/Activities'
+import Tastet from '@/components/Tastet'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Homepage />
       <Content />
       <Activities />
+      <Tastet />
     </>
   )
 }
