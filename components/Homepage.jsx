@@ -5,12 +5,12 @@ import Image from 'next/image'
 const Homepage = () => {
   return (
     <>
-    <div className='w-full h-64 bg-[var(--darkGreen)]'>
+    <div className='w-full h-72 bg-[var(--darkGreen)]'>
       <div className='w-full text-center absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2'>
         <div className='max-w-[80%] mx-auto my-6'>
           <h1 className='text-white p-4'>La ferme de Novelle</h1>
-          <h1 className='text-white lg:text-lg text-xs'>Du champs à l'assiète, bienvenue dans une ferme éthique et familiale</h1>
-          <p className='text-white lg:text-lg text-xs'>Boeuf Charolais, volailles fermières et potager en permaculture</p>
+          <p className='text-white lg:text-sm text-xs'>Du champs à l'assiète, bienvenue dans une ferme éthique et familiale</p>
+          <p className='text-white lg:text-sm text-xs'>Boeuf Charolais, volailles fermières et potager en permaculture</p>
         </div>
         {/* <div className="flex justify-center m-4 mb-10">
           <Link
@@ -26,7 +26,7 @@ const Homepage = () => {
         src='/assets/poule-groupe.jpg'
         width={700} height={100}
         alt='poule-groupe'
-        className='mx-auto max-h-[300px] rounded-xl shadow-xl shadow-gray-600'
+        className='mx-auto max-h-[350px] rounded-xl shadow-xl shadow-gray-600'
         style={{objectFit: 'cover'}}
         priority
         />

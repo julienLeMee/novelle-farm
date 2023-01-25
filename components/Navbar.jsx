@@ -47,16 +47,16 @@ const Navbar = () => {
         </Link>
         <ul style={{color: 'black'}} className='hidden sm:flex'>
           <li className='p-4 ml-2'>
-            <Link className='hover:text-[var(--red)] text-sm hover:underline' href='/'>Accueil</Link>
+            <Link className='hover:text-[var(--red)] text-sm hover:underline text-gray-900' href='/'>Accueil</Link>
           </li>
           <li className='p-4 ml-2'>
-            <Link className='hover:text-[var(--red)] text-sm hover:underline' href='/#histoire'>Notre histoire</Link>
+            <Link className='hover:text-[var(--red)] text-sm hover:underline text-gray-900' href='/#histoire'>Notre histoire</Link>
           </li>
           <li className='p-4 ml-2'>
-            <Link className='hover:text-[var(--red)] text-sm hover:underline' href='/#produits'>Nos produits</Link>
+            <Link className='hover:text-[var(--red)] text-sm hover:underline text-gray-900' href='/#produits'>Nos produits</Link>
           </li>
-          <li className='p-4 ml-2'>
-            <Link className='hover:text-[var(--red)] text-sm hover:underline' href='/contact'>Contact</Link>
+          <li className='p-4 ml-2 hover:scale-105 duration-300'>
+            <Link className='text-sm hover:underline border p-2 bg-[var(--red)] rounded text-white' href='/contact'>Contact</Link>
           </li>
         </ul>
 
