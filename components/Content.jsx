@@ -50,7 +50,7 @@ const Content = () => {
               width='200'
               height='200'
               style={{ objectFit: 'cover' }}
-              className='rounded-lg h-full w-full col-span-2 md:col-span-2 lg:col-span-1'
+              className='rounded-lg h-full w-full col-span-2 md:col-span-2 lg:col-span-1 hidden md:block'
             />
             <Image
               src={aboutImg}
@@ -58,7 +58,7 @@ const Content = () => {
               width='200'
               height='200'
               style={{ objectFit: 'cover' }}
-              className='rounded-lg h-full w-full col-span-2 md:col-span-2 lg:col-span-1'
+              className='rounded-lg h-full w-full col-span-2 md:col-span-2 lg:col-span-1 hidden md:block'
             />
         </div>
       </div>
