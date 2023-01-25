@@ -5,7 +5,7 @@ import aboutImg from '../public/assets/poule-main.jpg'
 
 const Content = () => {
   return (
-    <div id='about' className='w-full py-52 md:py-36 lg:py-16 flex items-center justify-center mb-2'>
+    <div id='about' className='w-full pt-52 pb-24 md:py-36 lg:py-16 flex items-center justify-center mb-2'>
       <div className='max-w-[80%] mx-auto md:grid grid-cols-3'>
         <div className='col-span-2 flex flex-col my-auto max-w-[600px]'>
           <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>CE QUE NOUS FAISONS À LA FERME</h2>

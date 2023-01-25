@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 
 const Homepage = () => {
@@ -23,7 +22,7 @@ const Homepage = () => {
           </Link>
         </div> */}
       <Image
-        src='/assets/poule-groupe.jpg'
+        src='https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
         width={700} height={100}
         alt='poule-groupe'
         className='mx-auto max-h-[350px] rounded-xl shadow-xl shadow-gray-600'
