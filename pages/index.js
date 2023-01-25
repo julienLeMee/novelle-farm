@@ -1,6 +1,7 @@
 import Homepage from '@/components/Homepage'
 import Content from '@/components/Content'
 import Head from 'next/head'
+import Activities from '@/components/Activities'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Homepage />
       <Content />
+      <Activities />
     </>
   )
 }
