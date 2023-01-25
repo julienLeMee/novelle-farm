@@ -3,6 +3,8 @@ import Content from '@/components/Content'
 import Head from 'next/head'
 import Activities from '@/components/Activities'
 import Tastet from '@/components/Tastet'
+import Contact from '@/components/Contact'
+import Medias from '@/components/Medias'
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <Content />
       <Activities />
       <Tastet />
+      <Medias />
+      <Contact />
     </>
   )
 }
