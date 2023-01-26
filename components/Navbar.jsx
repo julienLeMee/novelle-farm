@@ -59,7 +59,7 @@ const Navbar = () => {
             <Link className='hover:text-[var(--red)] text-sm hover:underline text-gray-900' href='/blog'>Blog</Link>
           </li>
           <li className='my-auto ml-6 hover:scale-105 duration-300'>
-            <Link className='text-sm hover:bg-[#cb5b63] duration-300 p-2 bg-[var(--red)] rounded text-white' href='/#contact'>Contact</Link>
+            <Link className='text-sm hover:bg-[#cb5b63] duration-300 p-2 bg-[var(--red)] rounded text-white' href='/contact'>Contact</Link>
           </li>
         </ul>
 
@@ -83,7 +83,7 @@ const Navbar = () => {
             <Link href='/blog'>Blog</Link>
           </li>
           <li onClick={handleNav} className='p-4 text-4xl text-white hover:text-[var(--red)]'>
-            <Link href='/#contact'>Contact</Link>
+            <Link href='/contact'>Contact</Link>
           </li>
         </ul>
       </div>

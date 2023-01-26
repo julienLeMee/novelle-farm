@@ -6,7 +6,7 @@ const tastetImg = 'https://images.unsplash.com/photo-1471193945509-9ad0617afabf?
 
 const TastetItem = () => {
   return (
-    <div className='relative mx-auto h-auto w-auto shadow-xl shadow-gray-400 rounded-xl hover:scale-105 duration-300'>
+    <div className='relative mx-auto  w-auto shadow-xl shadow-gray-400 rounded-xl hover:scale-105 duration-300'>
       <Link href='/'>
         <Image src={tastetImg} alt='Instagram Image' width={600} height={600} className='rounded-lg h-[150px] w-[150px] lg:h-[200px] lg:w-[200px]' style={{objectFit: 'cover'}} priority />
         {/* Overlay */}
