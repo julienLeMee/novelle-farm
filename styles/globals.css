@@ -19,7 +19,8 @@
 /* Fonts */
 :root {
   --font-title: 'Libre Baskerville', serif;
-  --font-body: 'Josefin Sans', sans-serif;
+  /* --font-body: 'Josefin Sans', sans-serif; */
+  --font-body: 'Lato', sans-serif;
 }
 
 html {
@@ -31,6 +32,10 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-title);
+}
+
+p {
+  font-family: var(--font-body);
 }
 
 @layer base {
@@ -49,5 +54,13 @@ h1, h2, h3, h4, h5, h6 {
 
   li {
     @apply cursor-pointer
+  }
+
+  a {
+    @apply cursor-pointer
+  }
+
+  p {
+    @apply tracking-wider
   }
 }
