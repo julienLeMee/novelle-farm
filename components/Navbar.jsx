@@ -55,6 +55,9 @@ const Navbar = () => {
           <li className='py-4 ml-6'>
             <Link className='hover:text-[var(--red)] text-sm hover:underline text-gray-900' href='/#produits'>Nos produits</Link>
           </li>
+          <li className='py-4 ml-6'>
+            <Link className='hover:text-[var(--red)] text-sm hover:underline text-gray-900' href='/#produits'>Blog</Link>
+          </li>
           <li className='py-4 ml-6 hover:scale-105 duration-300'>
             <Link className='text-sm hover:underline border p-2 bg-[var(--red)] rounded text-white' href='/contact'>Contact</Link>
           </li>
@@ -75,6 +78,9 @@ const Navbar = () => {
           </li>
           <li onClick={handleNav} className='p-4 text-4xl text-white hover:text-[var(--red)]'>
             <Link href='/produits'>Nos produits</Link>
+          </li>
+          <li onClick={handleNav} className='p-4 text-4xl text-white hover:text-[var(--red)]'>
+            <Link href='/produits'>Blog</Link>
           </li>
           <li onClick={handleNav} className='p-4 text-4xl text-white hover:text-[var(--red)]'>
             <Link href='/contact'>Contact</Link>

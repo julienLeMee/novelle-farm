@@ -10,8 +10,8 @@ const Footer = () => {
   return (
     <div className='pt-10 bg-[#f3b45a]/20'>
       <div className='flex max-w-[80%] mx-auto items-start justify-evenly my-4 sm:w-[80%] border-b p-4 py-10'>
-        <Link href='/'>
-          <Image src='/assets/logo.jpg' width={70} height={70} alt='logo' className='cursor-pointer rounded-full hover:scale-105 duration-300' style={{objectFit: 'cover'}} priority />
+        <Link href='/' className='mr-4'>
+          <Image src='/assets/logo.jpg' width={60} height={60} alt='logo' className='cursor-pointer bg-white px-3 py-2 w-full rounded-full hover:scale-105 duration-300 h-full' style={{objectFit: 'cover'}} priority />
         </Link>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="flex flex-col">
