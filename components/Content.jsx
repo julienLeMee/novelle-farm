@@ -8,7 +8,7 @@ const Content = () => {
     <div id='about' className='w-full pt-52 pb-24 md:py-36 lg:py-16 flex items-center justify-center mb-2'>
       <div className='max-w-[80%] mx-auto md:grid grid-cols-3'>
         <div className='col-span-2 flex flex-col my-auto max-w-[600px]'>
-          <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>CE QUE NOUS FAISONS À LA FERME</h2>
+          <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>NOS VALEURS ET NOTRE ENGAGEMENT</h2>
           <p className='py-2 pr-10 mb-8 text-gray-600 text-sm'>
           La Ferme de Novelle est une ferme Charolaise qui se consacre à l'élevage de bovins Charolais et de volailles fermières de qualité supérieure, qui sont nourris avec des aliments naturels et élevés en plein air. <br />
           <br />
