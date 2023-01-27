@@ -9,33 +9,45 @@ const contactImg = 'https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0
 const contact = () => {
   return (
     <>
-      <div className='flex flex-col items-center justify-center h-screen bg-fixed bg-center bg-cover'>
+      <div className='relative flex flex-col justify-start h-full bg-center'>
         <img
           src={contactImg}
-          alt='homepage' className='absolute top-0 left-0 right-0 bottom-0 z-[1] w-full object-cover max-h-[80%] my-auto'
+          alt='homepage' className='w-full h-full object-cover max-h-[400px] opacity-80'
         />
-        <div className='absolute top-0 left-0 right-0 bottom-0 z-[2] max-h-[80%] my-auto' />
-        <div className=' text-white z-[2]'>
-          <h1 className='text-5xl'>CONTACT</h1>
-        </div>
-        <div className='flex items-center justify-center my-4 w-full sm:w-[80%] z-10'>
-          <Link className='p-4' href="tel:0687324027" target='_blank'>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 bg-white text-[#35441e] ease-in duration-300'>
-              <BsFillTelephoneFill />
-            </div>
-          </Link>
-          <Link className='p-4' href='mailto:laberjotine@gmail.com' target='_blank'>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 bg-white text-[#35441e] ease-in duration-300'>
-              <AiOutlineMail />
-            </div>
-          </Link>
-          <Link className='p-4' href='https://fr-fr.facebook.com/laberjotine/' target='_blank'>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 bg-white text-[#35441e] ease-in duration-300'>
-              <FaFacebookF />
-            </div>
-          </Link>
+        <div className='text-white flex items-center justify-center h-full w-full my-auto absolute'>
+          <h1 className='text-3xl md:text-4xl lg:text-5xl'>CONTACT</h1>
         </div>
       </div>
+        {/* <div className='absolute top-0 left-0 right-0 bottom-0 bg-white/30 z-[2] max-h-[80%]' /> */}
+        <div className='flex mx-auto justify-evenly my-10 w-full sm:w-[80%] z-10'>
+          <div className="flex flex-col items-center justify-center">
+            <Link className='my-auto m-10' href="tel:0687324027" target='_blank'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 bg-white text-[#35441e] ease-in duration-300'>
+                <BsFillTelephoneFill className='scale-150' />
+              </div>
+            </Link>
+            <h6 className='mt-8'>Téléphone:</h6>
+            <p>438-509-4356</p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <Link className='my-auto m-10' href='mailto:laberjotine@gmail.com' target='_blank'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 bg-white text-[#35441e] ease-in duration-300'>
+                <AiOutlineMail className='scale-150' />
+              </div>
+            </Link>
+            <h6 className='mt-8'>Courriel:</h6>
+            <p>monmail@gmail.com</p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <Link className='my-auto m-10' href='https://fr-fr.facebook.com/laberjotine/' target='_blank'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 bg-white text-[#35441e] ease-in duration-300'>
+                <FaFacebookF className='scale-150' />
+              </div>
+            </Link>
+            <h6 className='mt-8'>Facebook:</h6>
+            <p>@fermedenovelle</p>
+          </div>
+        </div>
     </>
   )
 }
