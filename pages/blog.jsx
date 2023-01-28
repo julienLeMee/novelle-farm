@@ -6,9 +6,9 @@ const blog = () => {
     <>
       <div className='relative flex flex-col justify-start h-full bg-center'>
         <img
-          src='/assets/oeuf.jpg'
+          src='https://images.unsplash.com/photo-1441122456239-401e92b73c65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80'
           alt='homepage' className='w-full h-full object-cover max-h-[400px] opacity-80'
-        />
+          />
         <div className='text-white flex items-center justify-center h-full w-full my-auto absolute'>
           <h1 className='text-3xl md:text-4xl lg:text-5xl'>BLOG</h1>
         </div>
@@ -24,7 +24,7 @@ const blog = () => {
               width='677'
               height='451'
               className='rounded-lg h-full w-full col-span-2 md:col-span-2 row-span-1 lg:my-4'
-            />
+              />
           </div>
           <div className='col-span-2 flex flex-col my-auto max-w-[600px]'>
             <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>NOS VALEURS ET NOTRE ENGAGEMENT</h2>
@@ -49,8 +49,7 @@ const blog = () => {
           </div>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center md:ml-10 lg:ml-10'>
             <Image
-                        src='https://images.unsplash.com/photo-1441122456239-401e92b73c65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80'
-
+              src='/assets/oeuf.jpg'
               alt='/'
               style={{ objectFit: 'cover' }}
               width='677'
