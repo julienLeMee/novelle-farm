@@ -9,36 +9,36 @@ import Link from 'next/link'
 const Contact = () => {
   return (
     <div id='contact' className='w-full p-2 mb-20'>
-      <div className='max-w-[50%] mx-auto'>
+      <div className='max-w-[80%] mx-auto'>
         {/* <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>Contact</h2> */}
-        <div className=" h-full w-full grid grid-cols-2 gap-4 mb-10">
-          <div className="flex flex-col">
+        <div className=" h-full w-full grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+          <div className="flex flex-col mx-auto w-[200px]">
             <div className='w-10 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 text-white bg-[#35441e] ease-in duration-300'>
               <GiChicken className='scale-150' />
             </div>
-            <h3 className='pt-4 text-xs md:text-sm lg:text-xl'>Email</h3>
+            <h3 className='pt-4 text-xl'>Email</h3>
             <p className='text-xs md:text-sm lg:text-base'>monmail@mail.com</p>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col mx-auto w-[200px]">
             <div className='w-10 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 text-white bg-[#35441e] ease-in duration-300'>
               <GiChicken className='scale-150' />
             </div>
-            <h3 className='pt-4 text-xs md:text-sm lg:text-xl'>Phone</h3>
-            <p className='text-xs md:text-sm lg:text-base'>+33 1 23 45 67 89</p>
+            <h3 className='pt-4 text-xl'>Téléphone</h3>
+            <p className='text-xs md:text-sm lg:text-base'>438 506 3456</p>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col mx-auto w-[200px]">
             <div className='w-10 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 text-white bg-[#35441e] ease-in duration-300'>
               <GiChicken className='scale-150' />
             </div>
-            <h3 className='pt-4 text-xs md:text-sm lg:text-xl'>Adresse</h3>
+            <h3 className='pt-4 text-xl'>Adresse</h3>
             <p className='text-xs md:text-sm lg:text-base'>Lieu dit Novelle</p>
             <p className='text-xs md:text-sm lg:text-base'>Martigny le comte</p>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col mx-auto w-[200px]">
             <div className='w-10 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 text-white bg-[#35441e] ease-in duration-300'>
               <GiChicken className='scale-150' />
             </div>
-            <h3 className='pt-4 text-xs md:text-sm lg:text-xl'>Socials</h3>
+            <h3 className='pt-4 text-xl'>Socials</h3>
             <div className="flex pt-1">
               <Link href="tel:0687324027">
                 <BsFillTelephoneFill className='mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
