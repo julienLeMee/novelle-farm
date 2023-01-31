@@ -34,7 +34,7 @@ const Weather = () => {
             </div>
             <div className='flex flex-col'>
               <p className='text-xl text-center'>Vent</p>
-              <p className='text-center text-xl font-bold'>{weather.wind?.speed} km/h</p>
+              <p className='text-center text-xl font-bold'>{(weather.wind?.speed * 1.609344).toFixed(0)} km/h</p>
             </div>
             <div className='flex flex-col'>
               <p className='text-xl text-center'>Humidité</p>
@@ -42,7 +42,7 @@ const Weather = () => {
             </div>
             <div className='flex flex-col'>
               <p className='text-xl text-center'>Ressenti</p>
-              <p className='text-center text-xl font-bold'>{weather.main?.feels_like}°</p>
+              <p className='text-center text-xl font-bold'>{((weather.main?.feels_like - 32) * 5/9).toFixed(0)}&#176;</p>
             </div>
           </div>
         </div>
