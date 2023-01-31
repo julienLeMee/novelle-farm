@@ -5,6 +5,7 @@ import Activities from '@/components/Activities'
 import Tastet from '@/components/Tastet'
 import Contact from '@/components/Contact'
 import Medias from '@/components/Medias'
+import Weather from '@/components/Weather'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Tastet />
       <Medias />
       <Contact />
+      <Weather />
     </>
   )
 }
