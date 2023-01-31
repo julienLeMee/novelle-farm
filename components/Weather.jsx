@@ -19,8 +19,8 @@ const Weather = () => {
     <div className='w-full p-2 mb-20'>
       <div className='max-w-[700px] w-[80%] mx-auto'>
         <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>Météo</h2>
-        <div className='bg-black/40 text-white p-8 rounded-md'>
-          <h3 className='text-center pb-4'>{weather.name}</h3>
+        <div className='bg-[#35441e]/40 text-white p-8 rounded-md'>
+          <h3 className='text-center text-xl pb-4'>{weather.name}</h3>
           <div className=" h-full w-full grid grid-cols-2 items-center gap-4 mb-10">
             <div className="flex justify-center items-center mx-auto w-full">
               <Image
