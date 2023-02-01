@@ -6,6 +6,7 @@ const Tastet = () => {
     <div id='tastet' className='w-full h-full mx-auto py-20 bg-[#f3b45a]/20'>
       <div className='max-w-[80%] mx-auto'>
         <h2 className='uppercase text-3xl tracking-widest text-[#35441e] pb-8 text-center'>Redécouvrez le goût</h2>
+        <h3 className='text-xl tracking-widest text-[#35441e] pb-8 text-center'>Nos idées recettes de la ferme</h3>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 p-4 h-full w-full'>
           <TastetItem tastetImg='https://images.unsplash.com/photo-1471193945509-9ad0617afabf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80' />
           <TastetItem tastetImg='https://images.unsplash.com/photo-1505872342847-6dbb5e76cd31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80' />
