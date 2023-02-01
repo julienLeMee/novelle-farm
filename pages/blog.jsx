@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import { AiOutlineArrowRight } from 'react-icons/ai'
+import { BlogData } from '../components/BlogData'
 
 const blog = () => {
   return (
@@ -14,97 +16,31 @@ const blog = () => {
         </div>
       </div>
 
-      <div className='w-full py-16 flex items-center justify-center m-2'>
-        <div className='max-w-[80%] mx-auto md:grid grid-cols-3'>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center md:mr-10 lg:mr-10'>
-            <Image
-              src='/assets/poule-main.jpg'
-              alt='/'
-              style={{ objectFit: 'cover' }}
-              width='677'
-              height='451'
-              className='rounded-lg h-full w-full col-span-2 md:col-span-2 row-span-1 lg:my-4'
+      <div className='max-w-[80%] mx-auto md:grid grid-cols-2 gap-4 py-20'>
+        {BlogData.map((article) => (
+          <div key={article.id} className='flex flex-col my-10 p-4'>
+            <div>
+              <Image
+                src={article.img}
+                alt='/'
+                style={{ objectFit: 'cover' }}
+                width='400'
+                height='200'
+                className='rounded-lg w-[600px] h-[300px] object-cover shadow-lg'
               />
+            </div>
+            <div>
+              <h3 className='text-xl text-[#35441e] py-4'>{article.title}</h3>
+              <p className='text-lg text-[#35441e]'>{article.description}</p>
+            </div>
+            <div className='flex items-center'>
+              <AiOutlineArrowRight />
+              <button className='ml-4 py-4 rounded-lg text-[#35441e] hover:text-gray-500 hover:underline duration-300'>Lire l'article</button>
+            </div>
           </div>
-          <div className='col-span-2 flex flex-col my-auto max-w-[600px]'>
-            <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>NOS VALEURS ET NOTRE ENGAGEMENT</h2>
-            <p className='py-2 mb-8 text-gray-600 text-sm'>
-            La Ferme de Novelle est une ferme Charolaise qui se consacre à l'élevage de bovins Charolais et de volailles fermières de qualité supérieure, qui sont nourris avec des aliments naturels et élevés en plein air. <br />
-            <br />
-            Nous avons également à coeur de respecter la pratique de la permaculture pour notre potager, une méthode agricole qui respecte les écosystèmes naturels et qui permet de cultiver des légumes frais et sains.
-            </p>
-          </div>
-        </div>
+        ))}
       </div>
 
-      <div className='w-full py-16 flex items-center justify-center m-2'>
-        <div className='max-w-[80%] mx-auto md:grid grid-cols-3'>
-          <div className='col-span-2 flex flex-col my-auto max-w-[600px]'>
-            <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>NOS VALEURS ET NOTRE ENGAGEMENT</h2>
-            <p className='py-2 pr-10 mb-8 text-gray-600 text-sm'>
-            La Ferme de Novelle est une ferme Charolaise qui se consacre à l'élevage de bovins Charolais et de volailles fermières de qualité supérieure, qui sont nourris avec des aliments naturels et élevés en plein air. <br />
-            <br />
-            Nous avons également à coeur de respecter la pratique de la permaculture pour notre potager, une méthode agricole qui respecte les écosystèmes naturels et qui permet de cultiver des légumes frais et sains.
-            </p>
-          </div>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center md:ml-10 lg:ml-10'>
-            <Image
-              src='/assets/oeuf.jpg'
-              alt='/'
-              style={{ objectFit: 'cover' }}
-              width='677'
-              height='451'
-              className='rounded-lg h-full w-full col-span-2 md:col-span-2 row-span-1 lg:my-4'
-            />
-          </div>
-        </div>
-      </div>
-
-      <div className='w-full py-16 flex items-center justify-center m-2'>
-        <div className='max-w-[80%] mx-auto md:grid grid-cols-3'>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center md:mr-10 lg:mr-10'>
-            <Image
-              src='https://images.unsplash.com/9/fields.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhcm18ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'
-              alt='/'
-              style={{ objectFit: 'cover' }}
-              width='677'
-              height='451'
-              className='rounded-lg h-full w-full col-span-2 md:col-span-2 row-span-1 lg:my-4'
-            />
-          </div>
-          <div className='col-span-2 flex flex-col my-auto max-w-[600px]'>
-            <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>NOS VALEURS ET NOTRE ENGAGEMENT</h2>
-            <p className='py-2 mb-8 text-gray-600 text-sm'>
-            La Ferme de Novelle est une ferme Charolaise qui se consacre à l'élevage de bovins Charolais et de volailles fermières de qualité supérieure, qui sont nourris avec des aliments naturels et élevés en plein air. <br />
-            <br />
-            Nous avons également à coeur de respecter la pratique de la permaculture pour notre potager, une méthode agricole qui respecte les écosystèmes naturels et qui permet de cultiver des légumes frais et sains.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className='w-full py-16 flex items-center justify-center m-2'>
-        <div className='max-w-[80%] mx-auto md:grid grid-cols-3'>
-          <div className='col-span-2 flex flex-col my-auto max-w-[600px]'>
-            <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>NOS VALEURS ET NOTRE ENGAGEMENT</h2>
-            <p className='py-2 pr-10 mb-8 text-gray-600 text-sm'>
-            La Ferme de Novelle est une ferme Charolaise qui se consacre à l'élevage de bovins Charolais et de volailles fermières de qualité supérieure, qui sont nourris avec des aliments naturels et élevés en plein air. <br />
-            <br />
-            Nous avons également à coeur de respecter la pratique de la permaculture pour notre potager, une méthode agricole qui respecte les écosystèmes naturels et qui permet de cultiver des légumes frais et sains.
-            </p>
-          </div>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center md:ml-10 lg:ml-10'>
-            <Image
-              src='https://images.unsplash.com/photo-1481555716071-8830d3e254ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
-              alt='/'
-              style={{ objectFit: 'cover' }}
-              width='677'
-              height='451'
-              className='rounded-lg h-full w-full col-span-2 md:col-span-2 row-span-1 lg:my-4'
-            />
-          </div>
-        </div>
-      </div>
     </>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Medias = () => {
   return (
-    <div id='chambres' className='w-full p-2 mb-20'>
+    <div id='chambres' className='w-full p-2 py-20'>
       <div className='max-w-[80%] mx-auto'>
         <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>ILS PARLENT DE NOUS</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse ex est nulla doloremque nisi repellat tenetur, saepe ducimus error nesciunt quam cum ut dignissimos ab mollitia itaque! Officia, voluptatem ipsam?
