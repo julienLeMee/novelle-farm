@@ -4,7 +4,7 @@ import activityOne from '../public/assets/poule-groupe.jpg'
 
 const Activities = () => {
   return (
-    <div id='chambres' className='w-full p-2 mb-20'>
+    <div id='activities' className='w-full p-2 mb-20'>
       <div className='max-w-[80%] mx-auto'>
         <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>Nos activités</h2>
         <div className='grid md:grid-cols-3 gap-4'>

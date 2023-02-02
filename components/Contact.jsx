@@ -43,13 +43,13 @@ const Contact = () => {
               <Link href="tel:0687324027">
                 <BsFillTelephoneFill className='mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
-              <Link href='mailto:laberjotine@gmail.com' target='_blank'>
+              <Link href='mailto:lafermedenovelle@gmail.com' target='_blank'>
                 <AiOutlineMail className='cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
-              <Link href='https://fr-fr.facebook.com/laberjotine/' target='_blank'>
+              <Link href='https://www.instagram.com/lafermedenovelle/' target='_blank'>
                 <SlSocialInstagram className='cursor-pointer mr-4 ointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
-              <Link href='https://fr-fr.facebook.com/laberjotine/' target='_blank'>
+              <Link href='https://fr-fr.facebook.com/lafermedenovelle/' target='_blank'>
                 <FaFacebookF className='cursor-pointer mr-4 ointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
             </div>

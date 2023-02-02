@@ -17,42 +17,42 @@ const Footer = () => {
           <div className="flex flex-col">
             <p className='py-4 tracking-wider text-sm'>Liens rapides</p>
             <div className="flex flex-col">
-              <Link href="tel:0687324027">
-                <p className='text-gray-500 mb-2 mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>page link</p>
+              <Link href="/">
+                <p className='text-gray-500 mb-2 mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>Accueil</p>
               </Link>
-              <Link href='mailto:laberjotine@gmail.com' target='_blank'>
-                <p className='text-gray-500 mb-2 cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>page link</p>
+              <Link href='/histoire' target='_blank'>
+                <p className='text-gray-500 mb-2 cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>Notre histoire</p>
               </Link>
-              <Link href='https://fr-fr.facebook.com/laberjotine/' target='_blank'>
-                <p className='text-gray-500 mb-2 cursor-pointer mr-4 ointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>page link</p>
+              <Link href='/produits' target='_blank'>
+                <p className='text-gray-500 mb-2 cursor-pointer mr-4 ointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>Nos produits</p>
               </Link>
-              <Link href='https://fr-fr.facebook.com/laberjotine/' target='_blank'>
-                <p className='text-gray-500 mb-2 cursor-pointer mr-4 ointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>page link</p>
+              <Link href='/blog' target='_blank'>
+                <p className='text-gray-500 mb-2 cursor-pointer mr-4 ointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>Blog</p>
               </Link>
             </div>
           </div>
           <div className="flex flex-col">
             <p className='py-4 tracking-wider text-sm'>Productions</p>
             <div className=" flex-col">
-              <Link href="tel:0687324027">
-                <p className='text-gray-500 mb-2 mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>page link</p>
+              <Link href="/produits">
+                <p className='text-gray-500 mb-2 mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>Oeufs</p>
               </Link>
-              <Link href='mailto:laberjotine@gmail.com' target='_blank'>
-                <p className='text-gray-500 mb-2 cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>page link</p>
+              <Link href='/produits' target='_blank'>
+                <p className='text-gray-500 mb-2 cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>Bovins</p>
               </Link>
-              <Link href='mailto:laberjotine@gmail.com' target='_blank'>
-                <p className='text-gray-500 mb-2 cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>page link</p>
+              <Link href='/produits' target='_blank'>
+                <p className='text-gray-500 mb-2 cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>Volailles</p>
               </Link>
             </div>
           </div>
           <div className="flex flex-col">
             <p className='py-4 tracking-wider text-sm'>Contact</p>
             <div className=" flex-col">
-              <Link href="tel:0687324027">
-                <p className='text-gray-500 mb-2 mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>page link</p>
+              <Link href="tel:000000000">
+                <p className='text-gray-500 mb-2 mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>téléphone</p>
               </Link>
-              <Link href='mailto:laberjotine@gmail.com' target='_blank'>
-                <p className='text-gray-500 mb-2 cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>page link</p>
+              <Link href='mailto:lafermedenovelle@gmail.com' target='_blank'>
+                <p className='text-gray-500 mb-2 cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>email</p>
               </Link>
             </div>
           </div>
@@ -62,13 +62,13 @@ const Footer = () => {
               <Link href="tel:0687324027">
                 <BsFillTelephoneFill className='mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
-              <Link href='mailto:laberjotine@gmail.com' target='_blank'>
+              <Link href='mailto:lafermedenovelle@gmail.com' target='_blank'>
                 <AiOutlineMail className='cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
-              <Link href='https://fr-fr.facebook.com/laberjotine/' target='_blank'>
+              <Link href='https://instagram.com/lafermedenovelle/' target='_blank'>
                 <SlSocialInstagram className='cursor-pointer mr-4 ointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
-              <Link href='https://fr-fr.facebook.com/laberjotine/' target='_blank'>
+              <Link href='https://fr-fr.facebook.com/lafermedenovelle/' target='_blank'>
                 <FaFacebookF className='cursor-pointer mr-4 ointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
             </div>

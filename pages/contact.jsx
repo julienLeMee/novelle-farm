@@ -30,7 +30,7 @@ const contact = () => {
             <p>438-509-4356</p>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <Link className='my-auto m-10' href='mailto:laberjotine@gmail.com' target='_blank'>
+            <Link className='my-auto m-10' href='mailto:lafermedenovelle@gmail.com' target='_blank'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 bg-white text-[#35441e] ease-in duration-300'>
                 <AiOutlineMail className='scale-150' />
               </div>
@@ -39,7 +39,7 @@ const contact = () => {
             <p>monmail@gmail.com</p>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <Link className='my-auto m-10' href='https://fr-fr.facebook.com/laberjotine/' target='_blank'>
+            <Link className='my-auto m-10' href='https://fr-fr.facebook.com/lafermedenovelle/' target='_blank'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 bg-white text-[#35441e] ease-in duration-300'>
                 <FaFacebookF className='scale-150' />
               </div>

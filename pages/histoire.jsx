@@ -16,25 +16,21 @@ const histoire = () => {
       <div className='max-w-[80%] mx-auto py-20 flex flex-col'>
         <h2 className='text-2xl text-[#35441e]'>Il était une fois</h2>
         <p className='py-8'>
-          Dans un charmant petit village de Martigny-le-Comte, deux âmes déterminées, Céline et Christophe. Céline, une jeune femme passionnée par la nature et les produits locaux, quitta son travail en ville pour rejoindre Christophe à la ferme. Christophe, un fier éleveur de bovins Charolais, avait consacré sa vie à l'élevage de ces nobles animaux. <br />
-          Ensemble, ils ont décidé de donner vie à leur rêve de produire des aliments sains et de qualité pour leur communauté. Céline s'occupait du potager en permaculture et des volailles fermières tandis que Christophe s'occupait des bovins Charolais. Chaque jour, ils travaillaient sans relâche pour faire de leur ferme un modèle d'agriculture durable. <br />
+          Dans un charmant petit village de Martigny-le-Comte, vivait un jeune couple nommé Céline et Christophe. <br />
+          Céline, passionnée par la nature, avait tout quitté pour rejoindre son amoureux sur les terres fertiles de La ferme de Novelle où il s'occupait avec dévouement de ses bovins Charolais. <br />
+          Ensemble, ils s'unirent pour faire de la ferme un véritable joyau de qualité et de respect envers la nature. <br />
           <br />
-          Un jour, alors qu'ils se préparaient à vendre leurs produits au marché de Charolles, un incendie a éclaté sur la ferme. Tout semblait perdu, mais Céline et Christophe ne se sont pas découragés. Avec le soutien de leur village et leur détermination à faire perdurer leur ferme, ils ont travaillé jour et nuit pour reconstruire ce qu'ils avaient perdu. <br />
-          Et leur effort a payé. Leur ferme est devenue plus forte et plus florissante que jamais. Leurs produits, tels que les oeufs de poule élevées en plein air, sont devenus très populaires et recherchés pour leur goût incomparable. Céline vendait les produits de la ferme avec fierté au marché de Charolles, faisant connaître la ferme de Novelle à un public de plus en plus large. <br />
+          Un jour, alors que Céline se rendait au marché de Charolles pour vendre les produits de la ferme, Christophe aperçut un de ses boeufs Charolais qui s'était égaré dans les bois. Déterminé à le retrouver, il partit avec détermination sur les traces du bovin perdu. <br />
+          Au fil de sa quête, il découvrit une grotte enchantée remplie de délicieux fruits et légumes. Il comprit alors que ce trésor était le fruit de la permaculture pratiquée par Céline dans son potager de la ferme. <br />
+          Fier de cette découverte, Christophe ramena le bovin égaré et les fruits et légumes de la grotte enchantée à la ferme. <br />
+          Céline, émerveillée, décida de les ajouter à sa production pour offrir à leurs clients des produits encore plus sains et goûteux. <br />
+          A partir de ce jour, la ferme Novelle devint encore plus connue pour ses produits de qualité, respectueux de la nature et des animaux. <br />
           <br />
-          Et ainsi, Céline et Christophe ont vécu heureux, entourés de leur famille, de leurs amis, et de leur amour pour la terre et les animaux. Ils vécurent heureux et eurent beaucoup d'enfants, continuant à faire vivre leur rêve pour les générations futures.
+          Céline et Christophe poursuivirent leurs aventures sur la ferme en harmonie, émerveillant leurs clients avec leur passion pour la qualité et le respect de la nature. <br />
+          Ils vécurent heureux et eurent beaucoup d'enfants qui poursuivirent leur héritage sur la ferme Novelle. <br />
+          Et ainsi, l'histoire de la ferme Novelle devint légendaire, transmise de génération en génération comme un véritable conte de fée.
         </p>
         <h2 className='text-2xl text-[#35441e]'>FIN.</h2>
-
-          {/* Il était une fois, dans un charmant petit village de Martigny-le-Comte, un couple nommé Céline et Christophe. Céline était une jeune femme ambitieuse, qui a tout quitté pour rejoindre son amour, Christophe, à la ferme. Christophe était un preux chevalier s'occupant avec diligence de ses magnifiques bovins Charolais. Céline, quant à elle, a décidé de se consacrer au potager et aux volailles, et de vendre les produits de la ferme au marché de Charolles avec grâce et noblesse. <br />
-          Ensemble, ils ont travaillé avec passion et détermination pour faire de leur ferme un lieu de production de qualité, respectueux de la nature et de l'animal. Leurs produits sont appréciés de tous pour leur saveur incomparable et leur production responsable. <br />
-          Et ainsi, Céline et Christophe vécurent heureux et eurent beaucoup d'enfants, pour poursuivre l'histoire de leur ferme merveilleuse et la transmettre aux générations à venir. */}
-
-          {/* Il était une fois, Céline et Christophe, un couple passionné par la nature et les produits locaux. Céline avait tout quitté pour rejoindre Christophe à la ferme, où il s'occupait des bovins Charolais. Elle s'est rapidement impliquée dans la production de légumes en permaculture ainsi que dans l'élevage de volailles fermières, respectueux de l'animal. Ensemble, ils vendaient leurs produits frais sur le marché du village. <br />
-          Au fil du temps, la ferme de Novelle est devenue un exemple de qualité et de durabilité, grâce à la passion et à l'engagement de Céline et Christophe envers leurs produits. Les gens du village venaient de plus en plus souvent acheter les produits de la ferme, admirant la qualité et le respect de l'environnement que Céline et Christophe mettaient dans chacun de leurs produits. <br />
-          Leur amour pour la nature et leur dévouement à produire des aliments sains et respectueux de l'animal leur ont valu une réputation exceptionnelle, et leur ferme est devenue une destination incontournable pour les amateurs de produits locaux. <br />
-          Céline et Christophe vécurent heureux et eurent beaucoup d'enfants, qui ont tous hérité de leur amour pour la nature et la production de produits de qualité. La ferme de Novelle est devenue une institution locale, une preuve que la passion et le dévouement peuvent faire une grande différence dans la vie des gens. <br />
-          Et ils vécurent tous heureux pour toujours, produisant des produits de qualité pour leurs communautés locales et en prenant soin de la terre pour les générations futures. */}
       </div>
     </>
   )

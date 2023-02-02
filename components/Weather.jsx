@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
+import navLogoImg from '../public/assets/logo.jpg'
 import axios from 'axios'
 
 const Weather = () => {
@@ -24,7 +25,7 @@ const Weather = () => {
           <div className=" h-full w-full grid grid-cols-2 items-center gap-4 mb-10">
             <div className="flex justify-center items-center mx-auto w-full">
               <Image
-                src={weather.weather?.[0]?.icon ? `http://openweathermap.org/img/wn/${weather.weather[0].icon}@4x.png` : '/images/weather/unknown.svg'}
+                src={weather.weather?.[0]?.icon ? `http://openweathermap.org/img/wn/${weather.weather[0].icon}@4x.png` : navLogoImg}
                 width={100}
                 height={100}
                 alt='weather icon'
