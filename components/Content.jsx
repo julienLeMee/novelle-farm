@@ -14,24 +14,24 @@ const Content = () => {
           <br />
           Nous avons également à coeur de respecter la pratique de la permaculture pour notre potager, une méthode agricole qui respecte les écosystèmes naturels et qui permet de cultiver des légumes frais et sains.
           </p>
-          <div className=" h-full w-full grid grid-cols-3 md:grid-cols-2 gap-4 mb-10">
+          <div className=" h-full w-full grid grid-cols-3 md:grid-cols-2 gap-4 mb-20">
             <div className="flex items-center">
               <div className='w-10 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 text-white bg-[#35441e] ease-in duration-300'>
                 <GiChicken className='scale-150' />
               </div>
-              <h6 className='ml-4 text-xs md:text-sm lg:text-base'>Volailles fermières</h6>
+              <h6 className='ml-2 md:ml-4 text-xs md:text-sm lg:text-base'>Volailles fermières</h6>
             </div>
             <div className="flex items-center">
               <div className='w-10 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 text-white bg-[#35441e] ease-in duration-300'>
                 <GiCow className='scale-150' />
               </div>
-              <h6 className='ml-4 text-xs md:text-sm lg:text-base'>Boeufs Charolais</h6>
+              <h6 className='ml-2 md:ml-4 text-xs md:text-sm lg:text-base'>Boeufs Charolais</h6>
             </div>
             <div className="flex items-center">
               <div className='w-10 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 text-white bg-[#35441e] ease-in duration-300'>
                 <GiWheat className='scale-150' />
               </div>
-              <h6 className='ml-4 text-xs md:text-sm lg:text-base'>Permaculture</h6>
+              <h6 className='ml-2 md:ml-4 text-xs md:text-sm lg:text-base'>Permaculture</h6>
             </div>
           </div>
         </div>

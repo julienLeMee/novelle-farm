@@ -9,9 +9,9 @@ const Activities = () => {
         <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>Nos activités</h2>
         <div className='grid md:grid-cols-3 gap-4'>
           <ActivityItem
-            title={'Les volailles'}
+            title={'Les oeufs'}
             description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'}
-            backgroundImg={activityOne}
+            backgroundImg='https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80'
             url={'/'}
           />
           <ActivityItem
@@ -21,9 +21,9 @@ const Activities = () => {
             url={'/'}
           />
           <ActivityItem
-            title={'Le potager'}
+            title={'Les volailles'}
             description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'}
-            backgroundImg='https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZhcm18ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'
+            backgroundImg={activityOne}
             url={'/'}
           />
         </div>

@@ -32,7 +32,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <div style={{backgroundColor: 'white'}} className={ shadow ? 'fixed left-0 top-0 w-full z-[100] ease-in duration-300 shadow-xl' : 'fixed left-0 top-0 w-full z-[100] ease-in duration-300'}>
+    <div style={{backgroundColor: 'white'}} className={ shadow ? 'fixed left-0 top-0 w-full z-[100] ease-in duration-300 shadow-xl max-w-[100vw]' : 'fixed left-0 top-0 w-full z-[100] ease-in duration-300 max-w-[100vw]'}>
       <div className='max-w-[80%] m-auto flex items-center justify-between text-white'>
         <Link href='/' className='w-16'>
           <Image
