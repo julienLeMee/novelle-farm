@@ -19,8 +19,8 @@ const contact = () => {
         </div>
       </div>
         {/* <div className='absolute top-0 left-0 right-0 bottom-0 bg-white/30 z-[2] max-h-[80%]' /> */}
-        <div className='flex mx-auto justify-evenly my-10 w-full sm:w-[80%] z-10'>
-          <div className="flex flex-col items-center justify-center">
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-4 p-4 md:p-10'>
+          <div className="flex flex-col items-center justify-center py-8">
             <Link className='my-auto m-10' href="tel:0687324027" target='_blank'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 bg-white text-[#35441e] ease-in duration-300'>
                 <BsFillTelephoneFill className='scale-150' />
@@ -29,7 +29,7 @@ const contact = () => {
             <h6 className='mt-8'>Téléphone:</h6>
             <p>438-509-4356</p>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center py-8">
             <Link className='my-auto m-10' href='mailto:lafermedenovelle@gmail.com' target='_blank'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 bg-white text-[#35441e] ease-in duration-300'>
                 <AiOutlineMail className='scale-150' />
@@ -38,7 +38,7 @@ const contact = () => {
             <h6 className='mt-8'>Courriel:</h6>
             <p>monmail@gmail.com</p>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center py-8">
             <Link className='my-auto m-10' href='https://fr-fr.facebook.com/lafermedenovelle/' target='_blank'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 bg-white text-[#35441e] ease-in duration-300'>
                 <FaFacebookF className='scale-150' />

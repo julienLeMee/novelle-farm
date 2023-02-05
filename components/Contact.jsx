@@ -11,7 +11,7 @@ const Contact = () => {
     <div id='contact' className='w-full p-2 py-20'>
       <div className='max-w-[80%] mx-auto'>
         {/* <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>Contact</h2> */}
-        <div className=" h-full w-full grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="h-full w-full grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="flex flex-col mx-auto w-[150px]">
             <div className='w-10 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 text-white bg-[#35441e] ease-in duration-300'>
               <GiChicken className='scale-150' />

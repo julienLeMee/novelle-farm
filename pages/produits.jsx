@@ -15,7 +15,7 @@ const produits = () => {
       </div>
 
       <div className='w-full py-16 flex items-center justify-center m-2'>
-        <div className='max-w-[80%] mx-auto md:grid grid-cols-3'>
+        <div className='max-w-[90%] md:max-w-[80%] mx-auto md:grid grid-cols-3'>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center md:mr-10 lg:mr-10'>
             <Image
               src='/assets/poule-main.jpg'

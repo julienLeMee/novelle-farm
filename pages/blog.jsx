@@ -16,7 +16,7 @@ const blog = () => {
         </div>
       </div>
 
-      <div className='max-w-[80%] mx-auto md:grid grid-cols-2 gap-4 py-20'>
+      <div className='max-w-[90%] md:max-w-[80%] mx-auto md:grid grid-cols-2 gap-4 py-20'>
         {BlogData.map((article) => (
           <div key={article.id} className='flex flex-col my-10 p-4'>
             <div>

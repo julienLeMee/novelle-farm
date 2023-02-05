@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col">
             <p className='py-4 tracking-wider text-sm'>Social</p>
-            <div className="flex">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
               <Link href="tel:0687324027">
                 <BsFillTelephoneFill className='mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
