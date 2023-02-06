@@ -8,8 +8,8 @@ const Homepage = () => {
         <div className='w-full text-center absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2'>
           <div className='max-w-[90%] md:max-w-[80%] mx-auto my-8'>
             <h1 className='text-white p-4'>La Ferme de Novelle</h1>
-            <p className='text-white lg:text-sm text-xs'>Du champs à l'assiette, bienvenue dans une ferme éthique et familiale</p>
-            <p className='text-white lg:text-sm text-xs'>Boeuf Charolais, volailles fermières et potager en permaculture</p>
+            <p className='text-white lg:text-sm text-xs'>Du champs à l'assiette, bienvenue dans une ferme éthique et familiale.</p>
+            <p className='text-white lg:text-sm text-xs'>Boeuf Charolais et Oeufs de voleilles élevées en plein air</p>
           </div>
           {/* <div className="flex justify-center m-4 mb-10">
             <Link

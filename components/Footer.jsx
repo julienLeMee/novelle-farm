@@ -49,10 +49,10 @@ const Footer = () => {
             <p className='py-4 tracking-wider text-sm'>Contact</p>
             <div className=" flex-col">
               <Link href="tel:000000000">
-                <p className='text-gray-500 mb-2 mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>téléphone</p>
+                <p className='text-gray-500 mb-2 mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>Téléphone</p>
               </Link>
               <Link href='mailto:lafermedenovelle@gmail.com' target='_blank'>
-                <p className='text-gray-500 mb-2 cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>email</p>
+                <p className='text-gray-500 mb-2 cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>Email</p>
               </Link>
             </div>
           </div>

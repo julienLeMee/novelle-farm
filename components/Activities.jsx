@@ -1,6 +1,7 @@
 import React from 'react'
 import ActivityItem from './ActivityItem'
 import activityOne from '../public/assets/poule-groupe.jpg'
+import Link from 'next/link'
 
 const Activities = () => {
   return (
@@ -12,7 +13,7 @@ const Activities = () => {
             title={'Les oeufs'}
             description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'}
             backgroundImg='https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80'
-            url={'/'}
+            url={'/produits/oeufs'}
           />
           <ActivityItem
             title={'Les bovins'}
