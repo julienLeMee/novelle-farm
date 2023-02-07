@@ -25,7 +25,7 @@ const Activities = () => {
             title={'Les volailles'}
             description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'}
             backgroundImg={activityOne}
-            url={'/'}
+            url={'/produits/volailles'}
           />
         </div>
       </div>

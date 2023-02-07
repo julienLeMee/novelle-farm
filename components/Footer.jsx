@@ -9,7 +9,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <div className='pt-10 bg-[#f3b45a]/20'>
-      <div className='flex max-w-[80%] mx-auto items-start justify-evenly my-4 sm:w-[80%] border-b p-4 py-10'>
+      <div className='flex max-w-[80%] mx-auto items-start justify-evenly my-4 sm:w-[80%] border-b py-10'>
         <Link href='/' className='mr-4'>
           <Image src='/assets/logo.jpg' width={60} height={60} alt='logo' className='cursor-pointer bg-white px-3 py-2 w-full rounded-full hover:scale-105 duration-300 h-full' style={{objectFit: 'cover'}} priority />
         </Link>
@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-        <p className='text-sm text-center text-gray-500 pb-20'>2023 | © La Ferme De Novelle tous droits réservés</p>
+        <p className='text-sm text-center text-gray-500 pb-20 p-8'>2023 | © La Ferme De Novelle tous droits réservés</p>
     </div>
   )
 }

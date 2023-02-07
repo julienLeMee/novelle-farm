@@ -18,7 +18,7 @@ const oeufs = () => {
         <div className='max-w-[80%] mx-auto md:grid grid-cols-3'>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center md:mr-10 lg:mr-10'>
             <Image
-              src='https://images.unsplash.com/9/fields.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhcm18ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'
+              src='https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80'
               alt='/'
               style={{ objectFit: 'cover' }}
               width='677'

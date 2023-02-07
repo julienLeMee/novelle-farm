@@ -6,7 +6,7 @@ const bovins = () => {
     <>
       <div className='relative flex flex-col justify-start h-full bg-center'>
         <img
-          src='/assets/oeuf.jpg'
+          src='https://images.unsplash.com/photo-1554839465-be8f7c6786b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2hpdGUlMjBjb3d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'
           alt='homepage' className='w-full h-full object-cover max-h-[400px] opacity-80'
         />
         <div className='text-white flex items-center justify-center h-full w-full my-auto absolute'>
@@ -18,7 +18,7 @@ const bovins = () => {
         <div className='max-w-[90%] md:max-w-[80%] mx-auto md:grid grid-cols-3'>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center md:mr-10 lg:mr-10'>
             <Image
-              src='/assets/poule-main.jpg'
+              src='https://images.unsplash.com/photo-1554839465-be8f7c6786b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2hpdGUlMjBjb3d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'
               alt='/'
               style={{ objectFit: 'cover' }}
               width='677'
