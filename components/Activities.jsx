@@ -19,7 +19,7 @@ const Activities = () => {
             title={'Les bovins'}
             description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'}
             backgroundImg='https://images.unsplash.com/photo-1554839465-be8f7c6786b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2hpdGUlMjBjb3d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'
-            url={'/'}
+            url={'/produits/bovins'}
           />
           <ActivityItem
             title={'Les volailles'}
