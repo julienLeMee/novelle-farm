@@ -56,6 +56,9 @@ const Navbar = () => {
             <Link className='hover:text-[var(--red)] text-sm hover:underline text-gray-900' href='/produits'>Nos produits</Link>
           </li>
           <li className='py-4 ml-6'>
+            <Link className='hover:text-[var(--red)] text-sm hover:underline text-gray-900' href='/#tastet'>Recettes</Link>
+          </li>
+          <li className='py-4 ml-6'>
             <Link className='hover:text-[var(--red)] text-sm hover:underline text-gray-900' href='/blog'>Blog</Link>
           </li>
           <li className='my-auto ml-6 hover:scale-105 duration-300'>
