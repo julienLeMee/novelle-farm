@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { BlogData } from '../components/BlogData'
+import Link from 'next/link'
 
 const blog = () => {
   return (
@@ -22,7 +23,7 @@ const blog = () => {
             <div>
               <Image
                 src={article.img}
-                alt='/'
+                alt={article.title}
                 style={{ objectFit: 'cover' }}
                 width='400'
                 height='200'
@@ -33,10 +34,12 @@ const blog = () => {
               <h3 className='text-xl text-[#35441e] py-4'>{article.title}</h3>
               <p className='text-lg text-[#35441e]'>{article.description}</p>
             </div>
-            <div className='flex items-center'>
-              <AiOutlineArrowRight />
-              <button className='ml-4 py-4 rounded-lg text-[#35441e] hover:text-gray-500 hover:underline duration-300'>Lire l'article</button>
-            </div>
+            <Link href={`/blog/${article.id}`}>
+              <div className='flex items-center'>
+                <AiOutlineArrowRight />
+                <button className='ml-4 py-4 rounded-lg text-[#35441e] hover:text-gray-500 hover:underline duration-300'>Lire l'article</button>
+              </div>
+            </Link>
           </div>
         ))}
       </div>
