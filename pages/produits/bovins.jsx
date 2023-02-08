@@ -6,7 +6,7 @@ const bovins = () => {
     <>
       <div className='relative flex flex-col justify-start h-full bg-center'>
         <img
-          src='https://images.unsplash.com/photo-1554839465-be8f7c6786b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2hpdGUlMjBjb3d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'
+          src='https://images.unsplash.com/photo-1452674238634-6bbe7143cb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
           alt='homepage' className='w-full h-full object-cover max-h-[400px] opacity-80'
         />
         <div className='text-white flex items-center justify-center h-full w-full my-auto absolute'>
@@ -18,7 +18,7 @@ const bovins = () => {
         <div className='max-w-[90%] md:max-w-[80%] mx-auto md:grid grid-cols-3'>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center md:mr-10 lg:mr-10'>
             <Image
-              src='https://images.unsplash.com/photo-1554839465-be8f7c6786b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2hpdGUlMjBjb3d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'
+              src='https://images.unsplash.com/photo-1452674238634-6bbe7143cb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
               alt='/'
               style={{ objectFit: 'cover' }}
               width='677'
