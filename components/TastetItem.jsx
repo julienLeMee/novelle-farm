@@ -6,7 +6,7 @@ import Link from 'next/link'
 const TastetItem = ({tastetImg, title, url}) => {
   return (
     <div className='relative mx-auto w-auto shadow-xl shadow-gray-400 rounded-xl hover:scale-105 duration-300 group'>
-      <Link href={url}>
+      <Link href={`/recettes/${url}`}>
         <Image src={tastetImg}
           alt='Instagram Image'
           width={600} height={600}
