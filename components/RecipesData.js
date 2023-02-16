@@ -55,7 +55,31 @@ export const RecipesData = [
     id: 3,
     title: 'Soupe de citrouilles',
     description: 'La soupe de citrouille est un plat traditionnel américain, composé de citrouilles et de légumes mijotés ensemble pendant plusieurs heures. Voici une description de la recette classique et une recette pour préparer une soupe de citrouille délicieuse chez vous.',
-    tastetImg: 'https://images.unsplash.com/photo-1575672336898-d8142e84a14e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+    tastetImg: 'https://images.unsplash.com/photo-1575672336898-d8142e84a14e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+    ingredients: [
+      '1,5 kg de citrouille',
+      '1 oignon',
+      '2 gousses d\'ail',
+      '50 cl de bouillon de volaille ou de légumes',
+      '20 cl de crème liquide',
+      '2 cuillères à soupe d\'huile d\'olive',
+      'Sel',
+      'poivre'
+    ],
+    preparation: [
+      'Épluchez et coupez la citrouille en cubes.',
+      'Émincez l\'oignon et l\'ail.',
+      'Dans une cocotte ou une grande casserole, faites chauffer l\'huile d\'olive à feu moyen.',
+      'Ajoutez l\'oignon et l\'ail, et faites revenir pendant quelques minutes jusqu\'à ce qu\'ils soient dorés.',
+      'Ajoutez les cubes de citrouille dans la cocotte. Remuez bien pour enrober les légumes d\'huile.',
+      'Faites cuire pendant environ 10 minutes en remuant régulièrement.',
+      'Ajoutez le bouillon dans la cocotte. Portez à ébullition, puis baissez le feu et laissez mijoter pendant environ 20 à 25 minutes, jusqu\'à ce que les légumes soient tendres.',
+      'Lorsque les légumes sont cuits, retirez la cocotte du feu et mixez le tout à l\'aide d\'un mixeur plongeant jusqu\'à l\'obtention d\'une texture lisse et veloutée.',
+      'Ajoutez la crème liquide dans la cocotte et remuez bien.',
+      'Réchauffez à feu doux pendant quelques minutes.',
+      'Assaisonnez avec du sel et du poivre selon votre goût.',
+      'Servez la soupe chaude avec une tranche de pain grillé ou des croûtons pour plus de texture.'
+    ]
   },
   {
     id: 4,
