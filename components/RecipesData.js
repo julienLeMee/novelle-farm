@@ -94,7 +94,6 @@ export const RecipesData = [
       'Sel',
       'poivre'
     ],
-    // Épluchez les carottes et râpez-les finement à l'aide d'une râpe à gros trous. Dans un saladier, mélangez le vinaigre balsamique, l'huile d'olive et la moutarde. Ajoutez les carottes râpées dans le saladier et mélangez bien pour les enrober de la sauce. Assaisonnez avec du sel et du poivre selon votre goût. Réservez les carottes râpées au réfrigérateur pendant au moins une heure pour qu'elles s'imprègnent bien de la sauce. Au moment de servir, disposez les carottes râpées sur des assiettes individuelles. Vous pouvez ajouter quelques feuilles de salade ou des herbes fraîches pour la décoration.
     preparation: [
       'Épluchez les carottes et râpez-les finement à l\'aide d\'une râpe à gros trous.',
       'Dans un saladier, mélangez le vinaigre balsamique, l\'huile d\'olive et la moutarde.',
@@ -108,6 +107,22 @@ export const RecipesData = [
     id: 5,
     title: 'Radis au vinaigre',
     description: 'Les radis au vinaigre sont un accompagnement traditionnel allemand, composé de radis râpés et de vinaigre. Voici une description de la recette classique et une recette pour préparer des radis au vinaigre délicieux chez vous.',
-    tastetImg: 'https://images.unsplash.com/photo-1576072115035-5fe30e447e60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'
+    tastetImg: 'https://images.unsplash.com/photo-1576072115035-5fe30e447e60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80',
+    ingredients: [
+      '1 botte de radis',
+      '10 cl de vinaigre blanc',
+      '5 cl d\'eau',
+      '2 cuillères à soupe de sucre en poudre',
+      '1 cuillère à café de sel',
+      'Quelques brins de persil ou de coriandre'
+    ],
+    preparation: [
+      'Lavez et équeutez les radis.',
+      'Coupez les extrémités des radis, puis coupez-les en rondelles fines à l\'aide d\'un couteau ou d\'une mandoline.',
+      'Dans un saladier, mélangez le vinaigre blanc, l\'eau, le sucre et le sel, jusqu\'à ce que le sucre et le sel soient complètement dissous.',
+      'Ajoutez les rondelles de radis dans le saladier et mélangez bien pour les enrober de la marinade.',
+      'Réservez les radis au réfrigérateur pendant au moins 30 minutes pour qu\'ils s\'imprègnent bien de la marinade.',
+      'Au moment de servir, disposez les radis sur un plat ou dans des ramequins. Parsemez-les de quelques brins de persil ou de coriandre pour la décoration.'
+    ]
   }
 ]
