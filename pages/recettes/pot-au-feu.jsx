@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { RecipesData } from '@/components/RecipesData'
-import { RiRadioButtonFill } from 'react-icons/ri'
+import { BiRadioCircleMarked } from 'react-icons/bi'
 
 const PotAuFeu = () => {
   return (
@@ -39,30 +39,20 @@ const PotAuFeu = () => {
 
       <div className="max-w-[90%] md:max-w-[80%] w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className='w-full justify-center py-8'>
-              <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>Ingrédients</h2>
+              <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>Ingrédients <span className='text-base'>(6 pers.)</span></h2>
               <ul className='py-2 mb-8 text-gray-600 text-sm'>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>1 kg de viande de boeuf</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>Carottes (quantité selon votre goût)</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>Oignons (quantité selon votre goût)</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>1 bouquet garni</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>1 cube de bouillon de boeuf</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>1 cuillère à soupe de concentré de tomate</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>1 cuillère à soupe de farine</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>1 cuillère à soupe d'huile d'olive</li>
+                {RecipesData[0].ingredients.map((ingredient, index) => (
+                  <li key={index} className='py-1 flex items-center'><BiRadioCircleMarked className='mr-3 w-4'/>{ingredient}</li>
+                ))}
               </ul>
             </div>
 
             <div className='w-full justify-center py-8'>
               <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>Préparation</h2>
               <ol className='py-2 mb-8 text-gray-600 text-sm'>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>Éplucher les carottes et les oignons et les couper en morceaux.</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>Émincer la viande en gros morceaux.</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>Faire revenir la viande dans l'huile d'olive.</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>Ajouter les carottes et les oignons et laisser cuire 5 minutes.</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>Ajouter le concentré de tomate, le cube de bouillon et le bouquet garni.</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>Ajouter 1,5 litre d'eau et laisser cuire 1h30.</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>Après 1h30, ajouter la farine et laisser cuire 30 minutes.</li>
-                <li className='py-1 flex items-center'><RiRadioButtonFill className='mr-2 p-1'/>Retirer le bouquet garni et servir.</li>
+                {RecipesData[0].preparation.map((preparation, index) => (
+                  <li key={index} className='py-1 list-decimal pl-2 ml-2'>{preparation}</li>
+                ))}
               </ol>
             </div>
 
