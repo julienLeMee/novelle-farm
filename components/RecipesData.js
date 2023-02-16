@@ -31,25 +31,42 @@ export const RecipesData = [
   {
     id: 2,
     title: 'Crumble',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet nisl. Sed euismod, nisl ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet nisl.',
-    tastetImg: 'https://images.unsplash.com/photo-1505872342847-6dbb5e76cd31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+    description: 'Le crumble est un dessert traditionnel anglais, composé de fruits et d\'une pâte à crumble croustillante. Voici une description de la recette classique et une recette pour préparer un crumble délicieux chez vous.',
+    tastetImg: 'https://images.unsplash.com/photo-1505872342847-6dbb5e76cd31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+    ingredients: [
+      '6 pommes',
+      '100g de beurre',
+      '100g de sucre',
+      '100g de farine',
+      '1 pincée de sel',
+      '1 cuillère à café de cannelle (facultatif)'
+    ],
+    preparation: [
+      'Préchauffez votre four à 180°C (thermostat 6).',
+      'Épluchez et coupez les pommes en petits morceaux, et placez-les dans un plat allant au four.',
+      'Dans un saladier, mélangez la farine, le sucre, le sel et la cannelle.',
+      'Ajoutez le beurre froid coupé en petits morceaux, puis travaillez le tout du bout des doigts jusqu\'à obtenir une texture sableuse.',
+      'Répartissez le mélange à crumble sur les pommes.',
+      'Enfournez le plat et faites cuire pendant environ 30 minutes, jusqu\'à ce que la pâte à crumble soit dorée et croustillante.',
+      'Servez chaud avec de la crème fraîche, de la glace à la vanille ou du caramel, selon vos préférences.'
+    ]
   },
   {
     id: 3,
     title: 'Soupe de citrouilles',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet nisl. Sed euismod, nisl ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet nisl.',
+    description: 'La soupe de citrouille est un plat traditionnel américain, composé de citrouilles et de légumes mijotés ensemble pendant plusieurs heures. Voici une description de la recette classique et une recette pour préparer une soupe de citrouille délicieuse chez vous.',
     tastetImg: 'https://images.unsplash.com/photo-1575672336898-d8142e84a14e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
   },
   {
     id: 4,
     title: 'Carottes rapées',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet nisl. Sed euismod, nisl ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet nisl.',
+    description: 'Les carottes rapées sont un accompagnement traditionnel allemand, composé de carottes râpées et de vinaigre. Voici une description de la recette classique et une recette pour préparer des carottes rapées délicieuses chez vous.',
     tastetImg: 'https://images.unsplash.com/photo-1522184216316-3c25379f9760?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
   },
   {
     id: 5,
     title: 'Radis au vinaigre',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet nisl. Sed euismod, nisl ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet nisl.',
+    description: 'Les radis au vinaigre sont un accompagnement traditionnel allemand, composé de radis râpés et de vinaigre. Voici une description de la recette classique et une recette pour préparer des radis au vinaigre délicieux chez vous.',
     tastetImg: 'https://images.unsplash.com/photo-1576072115035-5fe30e447e60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80'
   }
 ]
