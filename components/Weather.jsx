@@ -25,6 +25,20 @@ const Weather = () => {
       });
     });
 
+    // new mapboxgl.Marker()
+    //   .setLngLat([lng, lat])
+    //   .addTo(map.current)
+    //   .setPopup(
+    //     new mapboxgl.Popup({ offset: 25 })
+    //       .setHTML(
+    //         '<h3 style="color: #35441e">La Ferme de Novelle</h3><p style="color: #35441e">Route du Beusselot</p>'
+    //       )
+    //   );
+
+    // new mapboxgl.Marker()
+    //   .setLngLat([4.273902, 46.432584])
+    //   .addTo(map.current)
+
   const [weather, setWeather] = useState({})
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=martigny-le-comte&units=imperial&appid=${process.env.NEXT_PUBLIC_WEATHER_KEY}`
