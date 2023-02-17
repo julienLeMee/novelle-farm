@@ -39,7 +39,7 @@ const Weather = () => {
  console.log(weather);
 
   return (
-    <div className='w-full flex items-center p-2 mb-20'>
+    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 py-20'>
       <div className='max-w-[600px] w-[80%] mx-auto'>
         <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>La météo de la ferme</h2>
         <div className='bg-[#35441e]/40 text-white p-8 rounded-md'>
@@ -74,7 +74,7 @@ const Weather = () => {
       {/* MAP */}
       <div className='max-w-[600px] w-[80%] mx-auto'>
         <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>La ferme sur la carte</h2>
-        <div className='bg-[#35441e]/40 text-white p-8 rounded-md'>
+        <div className='bg-[#35441e]/40 text-white rounded-md'>
           <div ref={mapContainer} className="map-container" />
         </div>
       </div>
