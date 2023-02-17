@@ -38,6 +38,13 @@ p {
   font-family: var(--font-body);
 }
 
+/*  MAP */
+
+.map-container {
+  height: 400px;
+  }
+  
+
 /* SLIDER */
 
 .slider-container {

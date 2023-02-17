@@ -1,9 +1,30 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import navLogoImg from '../public/assets/logo.jpg'
 import axios from 'axios'
+import mapboxgl from '!mapbox-gl'
+
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_KEY
+
 
 const Weather = () => {
+
+  const mapContainer = useRef(null);
+  const map = useRef(null);
+  const [lng, setLng] = useState(-70.9);
+  const [lat, setLat] = useState(42.35);
+  const [zoom, setZoom] = useState(9);
+
+  useEffect(() => {
+    if (map.current) return; // initialize map only once
+      map.current = new mapboxgl.Map({
+      container: mapContainer.current,
+      style: 'mapbox://styles/mapbox/streets-v12',
+      center: [lng, lat],
+      zoom: zoom
+      });
+    });
+
   const [weather, setWeather] = useState({})
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=martigny-le-comte&units=imperial&appid=${process.env.NEXT_PUBLIC_WEATHER_KEY}`
@@ -16,9 +37,10 @@ const Weather = () => {
 
   const tempC = (weather.main?.temp - 32) * (5/9);
  console.log(weather);
+
   return (
-    <div className='w-full p-2 mb-20'>
-      <div className='max-w-[700px] w-[80%] mx-auto'>
+    <div className='w-full flex items-center p-2 mb-20'>
+      <div className='max-w-[600px] w-[80%] mx-auto'>
         <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>La météo de la ferme</h2>
         <div className='bg-[#35441e]/40 text-white p-8 rounded-md'>
           <h3 className='text-center text-xl pb-4'>{weather.name}</h3>
@@ -48,6 +70,15 @@ const Weather = () => {
           </div>
         </div>
       </div>
+
+      {/* MAP */}
+      <div className='max-w-[600px] w-[80%] mx-auto'>
+        <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>La ferme sur la carte</h2>
+        <div className='bg-[#35441e]/40 text-white p-8 rounded-md'>
+          <div ref={mapContainer} className="map-container" />
+        </div>
+      </div>
+
     </div>
   )
 }

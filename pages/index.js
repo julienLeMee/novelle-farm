@@ -6,6 +6,7 @@ import Tastet from '@/components/Tastet'
 import Contact from '@/components/Contact'
 import Medias from '@/components/Medias'
 import Weather from '@/components/Weather'
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 export default function Home() {
   return (
