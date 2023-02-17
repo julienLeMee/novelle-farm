@@ -54,11 +54,11 @@ const Weather = () => {
 
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 gap-4 py-20'>
-      <div className='max-w-[600px] w-[80%] mx-auto'>
+      <div className='max-w-[600px] w-[80%] h-full m-auto'>
         <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>La météo de la ferme</h2>
-        <div className='bg-[#35441e]/40 text-white p-8 rounded-md'>
+        <div className='bg-[#35441e]/40 text-white p-8 h-[75%] lg:h-[80%] rounded-md'>
           <h3 className='text-center text-xl pb-4'>{weather.name}</h3>
-          <div className=" h-full w-full grid grid-cols-2 items-center gap-4 mb-10">
+          <div className="h-[80%] w-full grid grid-cols-2 items-center gap-4 mb-10">
             <div className="flex justify-center items-center mx-auto w-full">
               <Image
                 src={weather.weather?.[0]?.icon ? `http://openweathermap.org/img/wn/${weather.weather[0].icon}@4x.png` : navLogoImg}
@@ -88,9 +88,7 @@ const Weather = () => {
       {/* MAP */}
       <div className='max-w-[600px] w-[80%] mx-auto'>
         <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>La ferme sur la carte</h2>
-        <div className='bg-[#35441e]/40 text-white rounded-md'>
-          <div ref={mapContainer} className="map-container" />
-        </div>
+          <div ref={mapContainer} className="map-container rounded-md" />
       </div>
 
     </div>
