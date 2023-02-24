@@ -11,19 +11,19 @@ const Activities = () => {
         <div className='grid md:grid-cols-3 gap-4'>
           <ActivityItem
             title={'Les oeufs'}
-            description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'}
+            description={'Les oeufs de poule élevées en plein air : un goût incomparable'}
             backgroundImg='https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80'
             url={'/produits/oeufs'}
           />
           <ActivityItem
             title={'Les volailles'}
-            description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'}
+            description={"Les volailles fermières : une production locale et respectueuse de l'animal"}
             backgroundImg={activityOne}
             url={'/produits/volailles'}
           />
           <ActivityItem
             title={'Les bovins'}
-            description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'}
+            description={"L'élevage de bovins Charolais : une passion pour la qualité"}
             backgroundImg='https://images.unsplash.com/photo-1554839465-be8f7c6786b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2hpdGUlMjBjb3d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'
             url={'/produits/bovins'}
           />
