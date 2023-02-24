@@ -83,7 +83,7 @@ export const RecipesData = [
   },
   {
     id: 4,
-    title: 'Carottes rapées',
+    title: 'Carottes rapees',
     description: 'Les carottes rapées sont un accompagnement traditionnel allemand, composé de carottes râpées et de vinaigre. Voici une description de la recette classique et une recette pour préparer des carottes rapées délicieuses chez vous.',
     tastetImg: 'https://images.unsplash.com/photo-1522184216316-3c25379f9760?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
     ingredients: [

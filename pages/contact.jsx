@@ -27,7 +27,7 @@ const contact = () => {
               </div>
             </Link>
             <h6 className='mt-8'>Téléphone:</h6>
-            <p>438-509-4356</p>
+            <p>06.87.32.40.27</p>
           </div>
           <div className="flex flex-col items-center justify-center py-8">
             <Link className='my-auto m-10' href='mailto:lafermedenovelle@gmail.com' target='_blank'>
@@ -36,7 +36,7 @@ const contact = () => {
               </div>
             </Link>
             <h6 className='mt-8'>Courriel:</h6>
-            <p>monmail@gmail.com</p>
+            <p>lafermedenovelle@gmail.com</p>
           </div>
           <div className="flex flex-col items-center justify-center py-8">
             <Link className='my-auto m-10' href='https://fr-fr.facebook.com/lafermedenovelle/' target='_blank'>
