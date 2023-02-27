@@ -48,6 +48,35 @@ const contact = () => {
             <p>@fermedenovelle</p>
           </div>
         </div>
+
+        <div className="w-full mx-auto">
+          <div className='max-w-[90%] md:max-w-[80%] mx-auto'>
+            <h2 className='uppercase text-3xl tracking-widest text-[#35441e] py-8 text-center'>Nos points de ventes</h2>
+
+            <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className='w-full justify-center items-center py-8'>
+                <h2 className='text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>Le marché de Charolles</h2>
+                <p>Tout les mercredis matin de 7h à 13h</p>
+                <p>Pré St Nicolas</p>
+                <p>71120 Charolles</p>
+              </div>
+
+              <div className='w-full justify-center py-8'>
+                <h2 className='text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>Le marché de Montceau</h2>
+                <p>Tout les vendredi matin de 7h à 13h</p>
+                <p>Place du marché</p>
+                <p>71220 Montceau-les-Mines</p>
+              </div>
+
+              <div className='w-full justify-center py-8'>
+                <h2 className='text-3xl tracking-widest text-[#35441e] py-4 max-w-[400px]'>Vente à la ferme</h2>
+                <p>Vente direct à la Ferme</p>
+                <p>Route du Beusselot</p>
+                <p>71220 Martigny-le-Comte</p>
+              </div>
+            </div>
+          </div>
+        </div>
     </>
   )
 }

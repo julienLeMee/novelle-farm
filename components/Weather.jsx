@@ -35,6 +35,7 @@ const Weather = () => {
     //       )
     //   );
 
+
     // new mapboxgl.Marker()
     //   .setLngLat([4.273902, 46.432584])
     //   .addTo(map.current)
