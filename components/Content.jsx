@@ -42,7 +42,7 @@ const Content = () => {
               style={{ objectFit: 'cover' }}
               width='677'
               height='451'
-              className='rounded-lg h-full w-full col-span-2 md:col-span-2 row-span-1 lg:my-4'
+              className='rounded-lg h-100 w-full col-span-2 md:col-span-2 row-span-1 lg:my-4'
             />
             <Image
               src='https://images.unsplash.com/photo-1485795046599-702122cd1267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
@@ -50,7 +50,7 @@ const Content = () => {
               width='200'
               height='200'
               style={{ objectFit: 'cover' }}
-              className='rounded-lg h-full w-full col-span-2 md:col-span-2 lg:col-span-1 hidden md:block'
+              className='rounded-lg h-100 w-full col-span-2 md:col-span-2 lg:col-span-1 hidden md:block'
             />
             <Image
               src={aboutImg}
@@ -58,7 +58,7 @@ const Content = () => {
               width='200'
               height='200'
               style={{ objectFit: 'cover' }}
-              className='rounded-lg h-full w-full col-span-2 md:col-span-2 lg:col-span-1 hidden md:block'
+              className='rounded-lg h-100 w-full col-span-2 md:col-span-2 lg:col-span-1 hidden md:block'
             />
         </div>
       </div>

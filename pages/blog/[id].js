@@ -9,11 +9,11 @@ const blog = () => {
           alt='homepage' className='w-full h-full object-cover max-h-[400px] opacity-80'
           />
         <div className='text-white flex items-center justify-center h-full w-full my-auto absolute'>
-          <h1 className='text-3xl md:text-4xl lg:text-5xl'>BLOG ARTICLE</h1>
+          <h1 className='text-3xl md:text-4xl lg:text-5xl'>BLOG</h1>
         </div>
       </div>
       <div className="flex items-center justify-center p-24">
-        <h2 className='w-full text-center'>Page in developement</h2>
+        <h2 className='w-full text-center'>Votre blog est bientôt retour...</h2>
       </div>
     </>
   )
